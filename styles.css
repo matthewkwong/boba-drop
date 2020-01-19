@@ -18,6 +18,27 @@ p{
   color: #989898;
 }
 
+#reimagined{
+  float: left;
+}
+
+#reimagined p{
+  width: 694px;
+}
+
+#reimagined > h1, p{
+  padding-left: 10%;
+  text-align: left;
+}
+
+#reimagined > img{
+  z-index: -1;
+  position: absolute;
+  float: right;
+  right:0;
+  height: 100vh;
+}
+
 #works{
   height: 200vh;
 }
@@ -34,13 +55,11 @@ p{
 }
 
 #deliver > p{
-  margin-left: 734px;
+  margin-left: 600px;
   margin-top:329px;
   width:592px;
   text-align: right;
 }
-
-
 
 #deliver > a {
   border-radius: 73px;
@@ -61,8 +80,6 @@ p{
 #deliver > img{
   z-index: -1;
   position: absolute;
-
   float: left;
-  /* width: 902px; */
   height: 100vh;
 }
