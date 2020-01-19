@@ -1,0 +1,68 @@
+body{
+  font-family: Poppins;
+  font-size: 30px;
+}
+
+h1{
+  color:#035670;
+}
+
+a{
+  color:#035670;
+  text-decoration: none;
+}
+
+
+
+p{
+  color: #989898;
+}
+
+#works{
+  height: 200vh;
+}
+
+.page{
+  /* border:solid 2px red; */
+  height: 100vh;
+}
+
+#deliver > h1{
+  float: right;
+  margin-top: 172px;
+  margin-right: 6%;
+}
+
+#deliver > p{
+  margin-left: 734px;
+  margin-top:329px;
+  width:592px;
+  text-align: right;
+}
+
+
+
+#deliver > a {
+  border-radius: 73px;
+  border: solid 5px #035670;
+  float: right;
+  margin-right: 6%;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#deliver > a:hover{
+  background-color: #035670;
+  color:white;
+}
+
+#deliver > img{
+  z-index: -1;
+  position: absolute;
+
+  float: left;
+  /* width: 902px; */
+  height: 100vh;
+}
